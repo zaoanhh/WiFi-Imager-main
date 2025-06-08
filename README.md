@@ -14,6 +14,13 @@ This is the preprocessing code for the paper "The field-based model: a new persp
 }
 ```
 
+Some [documentation](https://zaoanhh.github.io/WiFi-Imager-main/dev/) has been set up for this project. It can be viewed by
+running the file `docs/make.jl`, and then launching the generated file
+`docs/build/index.html`.
+Alternatively, the documentation may be already hosted online.
+
+
+
 This code base is using the [Julia Language](https://julialang.org/) and
 [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
@@ -43,10 +50,7 @@ which auto-activate the project and enable local path handling from DrWatson.
 
 
 
-Some documentation has been set up for this project. It can be viewed by
-running the file `docs/make.jl`, and then launching the generated file
-`docs/build/index.html`.
-Alternatively, the documentation may be already hosted online.
-If this is the case it should be at:
 
-https://PutYourGitHubNameHere.github.io/WiFi-Imager/dev/
+
+
+
