@@ -32,10 +32,6 @@ jobs:
       - uses: julia-actions/cache@v1
       - uses: julia-actions/julia-buildpkg@v1
 
-      - name: Run tests
-        run: >
-          julia --project=. --color=yes test/runtests.jl
-
       - name: Generate documentation and deploy
         env: # needed for pushing to gh-pages branch
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

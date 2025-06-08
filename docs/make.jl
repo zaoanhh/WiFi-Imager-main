@@ -36,7 +36,7 @@ if CI
         # the auto-generated documentation will be hosted at:
         # https://PutYourGitHubNameHere.github.io/WiFi-Imager/dev/
         # (assuming you have enabled `gh-pages` deployment)
-        repo = "github.com/zaoanhh/WiFi-Imager.git",
+        repo = "github.com/zaoanhh/WiFi-Imager-main.git",
         target = "build",
         push_preview = true,
         devbranch = "main",
